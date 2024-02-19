@@ -1,2 +1,2 @@
 #!/bin/bash
-export -S $CFILE
+EXPORT -S $CFILE
