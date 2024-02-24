@@ -5,16 +5,13 @@
 /**
  *_abs - Compute absolute value of an integer
  * @i: The number to be computed
- * Return: Absolute value of number
+ * Return: Absolute value of a number
  */
 int _abs(int i)
 {
 	if (i < 0)
 	{
-	int _abs;
-
-	_abs = i * -1;
-	return (_abs);
+	return -i;
 	}
-	return (i);
+	return i;
 }
