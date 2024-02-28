@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print square - print a square followed by a new line
- * size: is the size of the square
+ * print_square - print a square followed by a new line
+ * @size: is the size of the square
  */
 
 void print_square(int size)
@@ -11,7 +11,7 @@ void print_square(int size)
 
 	if (size > 0)
 	{
-		for (i = 0); i < size; i++)
+		for (i = 0; i < size; i++)
 		{
 			for (j = 0; j < size; j++)
 			{
