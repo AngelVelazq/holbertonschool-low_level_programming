@@ -9,21 +9,21 @@ void print_triangle(int size)
 
 	if (size > 0)
 	{
-	for (rows = 0; rows < size; rows++)
-	{
-	for (space = 0; space < size; space++)
-	{
-	if (space < size - (rows + 1))
-	{
-		_putchar(' ');
-	}
-	else
-	{
-		_putchar('#');
-	}
-	}
-	_putchar('\n');
-	}
+		for (rows = 0; rows < size; rows++)
+		{
+			for (space = 0; space < size; space++)
+			{
+				if (space < size - (rows + 1))
+				{
+					_putchar(' ');
+				}
+				else
+				{
+					_putchar('#');
+				}
+			}
+			_putchar('\n');
+		}
 	}
 	else
 	{
