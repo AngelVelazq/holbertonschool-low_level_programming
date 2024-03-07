@@ -8,12 +8,13 @@
 char *_strpbrk(char *s, char *accept)
 {
 	const char *p;
-
 	while (*s)
 	{
-		if (*s == *p)
+		p = accept;
+		while (*p)
 		{
-			return (s);
+			if (*s == *p)
+				return (s);
 			p++;
 		}
 		s++;
