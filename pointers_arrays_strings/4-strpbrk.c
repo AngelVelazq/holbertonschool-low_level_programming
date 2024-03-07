@@ -8,6 +8,7 @@
 char *_strpbrk(char *s, char *accept)
 {
 	const char *p;
+
 	while (*s)
 	{
 		p = accept;
