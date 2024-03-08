@@ -1,10 +1,15 @@
 #include <stdio.h>
 /**
  * main - entry point
- * Return: void
+ * @argc: count lines
+ * @argv: count strings
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
-	printf("argc = %d\n", argc);
-	return 0;
+	if (argc > 0)
+	{
+		printf("%s\n", argv[0]);
+	}
+	return (0);
 }
