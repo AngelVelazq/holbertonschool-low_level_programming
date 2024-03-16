@@ -1,5 +1,5 @@
 #ifndef _DOG_H_
-#define _DOG_h_
+#define _DOG_H_
 /**
  * struct dog - define data type for variable @dog
  * @name: name of dog
