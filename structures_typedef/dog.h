@@ -1,13 +1,14 @@
 #ifndef _DOG_H_
 #define _DOG_h_
-#include <stdio.h>
 /**
  * struct dog - define data type for variable @dog
- * @name: input
- * @age: input
- * @owner: input
- * Return: void
+ * @name: name of dog
+ * @age: age of dog
+ * @owner: owner of dog
+ *
+ * Description: struct for dog info
  */
+
 struct dog
 {
 	char *name;
