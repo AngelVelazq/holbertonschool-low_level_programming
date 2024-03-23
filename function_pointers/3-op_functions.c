@@ -23,7 +23,8 @@ int op_sub(int a, int b)
 }
 /**
  * op_mul - input
- *
+ * @a: input
+ * @b: input
  */
 int op_mul(int a, int b)
 {
