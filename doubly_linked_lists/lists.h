@@ -2,20 +2,6 @@
 #define LISTS_H
 #include <stddef.h>
 /**
- * struct list - Single linked lists
- * @str: String for malloc
- * @len: Length of the string
- * @next: Singly linked lists node struct
- */
-
-typedef struct list
-{
-        char *str;
-        int len;
-        struct list *next;
-} list_t;
-
-/**
  * struct dlistint_s - Doubly linked list node structure
  * @n: Integer stored in the node
  * @prev: Pointer to the previous node
