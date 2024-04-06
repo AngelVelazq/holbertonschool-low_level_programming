@@ -8,11 +8,13 @@
  */
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
+	dlistint_t *current;
+	unsigned int i = 0;
+
 	if (*head == NULL)
 		return (-1); /*If the list is empty*/
 
-	dlistint_t *current = *head;
-	unsigned int i = 0;
+	current = *head;
 
 	if (index == 0)
 	{
